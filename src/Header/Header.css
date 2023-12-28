@@ -1,0 +1,102 @@
+.header 
+{
+    padding:20px 50px;
+}
+.header-left 
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo 
+{
+    font-family: 'Epilogue';
+    font-weight: bolder;
+}
+.navigation ul 
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navigation ul li 
+{
+    font-family: 'Epilogue';
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navigation ul li a
+{
+    color:gray;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+.navigation ul li a:hover 
+{
+    color: black;
+}
+.drop-down
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon-arrow 
+{
+    width: 18px;
+}
+.drop-down-content 
+{
+    position: absolute;
+    top:30px;
+    left:-30px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 18px; */
+    color:gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+.drop-down-content li 
+{
+    display: flex;
+    gap: 10px;
+    padding:12px 30px;
+}
+.drop-down-content li:hover 
+{
+    background-color: rgb(197, 197, 197);
+    color:black;
+}
+.drop-down-content-2
+{
+    position: absolute;
+    top:30px;
+    right: -40px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 18px; */
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    color: gray;
+    padding: 20px 0;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+.drop-down-content-2 li 
+{
+    display: flex;
+    gap: 10px;
+    padding:12px 30px;
+}
+.drop-down-content-2 li:hover 
+{
+    background-color: rgb(197, 197, 197);
+    color:black;
+}
